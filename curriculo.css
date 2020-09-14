@@ -1,0 +1,160 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+}
+
+.body {
+    background-image:  url("fundo.png"); /* imagem de fundo */
+    background-repeat: no-repeat; /* para imagem n se repetir na pagina */
+    background-size: cover; /* para o fundo cobrir toda a tela */
+    background-position: center; /*posicionando o centro da img, centralizando */
+    background-attachment: fixed; /* para a imagem não sumir com a rolagem da pag*/
+}
+
+img {
+    width: 150px;
+    border-radius: 150px;    
+    margin-left: 10px;
+}
+
+.IeC { /* Personalizando Div que tem dentro img e Carta */
+    background-color: 	#008B8B ;
+    margin-left: 20px; /*margem é o espaço entre as divs*/
+    border-radius: 25px; /*arredondando a borda só aumentar o pixel se quiser circulo*/
+    width: 75%;
+    margin-bottom: 0px;
+}
+
+
+
+.Nome { 
+    background-color: 	#008B8B ;
+    width: 450px;
+    border-radius: 25px;
+    margin: 10px;
+    margin-left: 20px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em; /*sombra do texto */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: #008B8B 0.01px solid; /*colocando borda na div*/
+ 
+}
+
+.Carta{
+    display: inline-block; /* inline block para uma div ficar do lado da outra na mesma linha */
+    width: 65%;
+    display: inline-block;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4%;
+}
+
+.img {
+    display: inline-block;
+    width: 14%;
+    margin: 10px;
+    align-items: center;
+}
+
+.Dados { /* é a div onde esta dentro a formação e as exp*/
+    background-color: 	#008B8B ;
+    margin-left: 20px; /*margem é o espaço entre as divs*/
+    border-radius: 25px; /*arredondando a borda só aumentar o pixel se quiser circulo*/
+    width: 75%;
+}
+
+.DadosPessoais {
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    background-color: 	#008B8B ;
+    margin-left: 20px; /*margem é o espaço entre as divs*/
+    width: 37.5%;
+    float: left;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.DadosPessoaisL {
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    float: left;
+    background-color: 	#008B8B ;
+    border-bottom-right-radius: 25px; /*arredondando a borda só aumentar o pixel se quiser circulo*/
+    width: 37.5%;
+    border-top-right-radius: 25px;
+    margin-top: 10px;
+    border-bottom: #008B8B  solid 49px;
+    margin-bottom: 10px;
+}
+
+.Contrate {
+    background-color: rgb(31, 134, 31);
+    width: 25%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    -webkit-box-shadow: 5px 3px 4px 0px rgba(50, 34, 28, 0.43);
+    -moz-box-shadow:    5px 3px 4px 0px rgba(50, 34, 28, 0.43);
+    box-shadow:         5px 3px 4px 0px rgba(50, 34, 28, 0.43);
+    margin-left: 180px;
+    border: 1px white solid;
+    margin-top: 40px;
+}
+
+.TextB{
+    text-decoration: none;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.EspacoT {
+    background-color: 	#008B8B ;
+    margin-left: 20px; /*margem é o espaço entre as divs*/
+    border-radius: 25px; /*arredondando a borda só aumentar o pixel se quiser circulo*/
+    width: 75%;
+    margin-top: 440px;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Tabela {
+    width: 50%;
+    background-color: 	#008B8B ;
+    margin-bottom: 100px;
+    height: 610px;
+    margin-left: 40px;
+}
+
+
+
+table{
+    border:3px solid #000;
+    background-color:	#008B8B ;
+    border-collapse: collapse;
+}
+
+th {
+    background-color:rgba(231, 231, 231, 0.897);
+    color: black;
+    border:black solid 2px;
+}
+
+td {
+    border: white solid 2px;
+}
+
+td {
+    background-color: black;
+}

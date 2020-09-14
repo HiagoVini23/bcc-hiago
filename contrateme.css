@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+}
+
+.body {
+    background-image:  url("fundo.png"); /* imagem de fundo */
+    background-repeat: no-repeat; /* para imagem n se repetir na pagina */
+    background-size: cover; /* para o fundo cobrir toda a tela */
+    background-position: center; /*posicionando o centro da img, centralizando */
+    background-attachment: fixed; /* para a imagem não sumir com a rolagem da pag*/
+}
+
+.Principal{
+    background-color: 	#008B8B ;
+    margin-left: 20px; /*margem é o espaço entre as divs*/
+    border-radius: 25px; /*arredondando a borda só aumentar o pixel se quiser circulo*/
+    width: 75%;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.texto{ /*div do texto de pq me contratar*/
+
+display: inline-block;
+width: 65%;
+}
+
+img { 
+    width: 150px;
+    border-radius: 150px;    
+    margin-left: 10px;
+}
+
+.img {/*div da img pra ajustar onde fica etc*/
+    display: inline-block;
+    width: 16%;
+    margin: 10px;
+    align-items: center;
+
+    display:inline-block;
+}
+
+.enviar {
+    background-color: rgb(31, 134, 31);
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    -webkit-box-shadow: 5px 3px 4px 0px rgba(50, 34, 28, 0.43);
+    -moz-box-shadow:    5px 3px 4px 0px rgba(50, 34, 28, 0.43);
+    box-shadow:         5px 3px 4px 0px rgba(50, 34, 28, 0.43);
+    border: 1px white solid;
+    margin-left: 20px;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.Voltar {
+    background-color:rgba(255, 0, 0, 0.842);
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    -webkit-box-shadow: 5px 3px 4px 0px rgba(50, 34, 28, 0.43);
+    -moz-box-shadow:    5px 3px 4px 0px rgba(50, 34, 28, 0.43);
+    box-shadow:         5px 3px 4px 0px rgba(50, 34, 28, 0.43);
+    border: 1px white solid;
+    display: inline-block
+}
+
+.TextV {
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
